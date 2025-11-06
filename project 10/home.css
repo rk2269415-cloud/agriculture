@@ -1,0 +1,94 @@
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 280px;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  background-color: #43a047;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.learn-more:hover {
+  background-color: #2e7d32;
+}
+
+.hero-image img {
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* About Section */
+.about, .services, .minister, .links {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about h2, .services h2, .minister h2, .links h2 {
+  color: #1b5e20;
+  margin-bottom: 10px;
+}
+
+/* Services */
+.services ul, .links ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.services li, .links li {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.links a {
+  color: #2e7d32;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  margin-top: 30px;
+}
+
+footer>a>i{
+    color:black;
+    font-size: 20px;
+}
